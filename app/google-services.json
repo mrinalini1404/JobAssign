@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1075093486852",
+    "firebase_url": "https://jobassign-1561719059234.firebaseio.com",
+    "project_id": "jobassign-1561719059234",
+    "storage_bucket": "jobassign-1561719059234.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1075093486852:android:79e7f66e7aff4f2d",
+        "android_client_info": {
+          "package_name": "com.jobs.jobassign"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1075093486852-ovmdmetalm59sfq62rq1pfa51o4f5sid.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jobs.jobassign",
+            "certificate_hash": "3bcdf2c97047f5632c5ea102d2263b168704c3ef"
+          }
+        },
+        {
+          "client_id": "1075093486852-f30p6gj83net0evgljbf0hotoq58g3dn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpFb6KyMm0rtcmkxSRfOy457_7xHywPHQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1075093486852-f30p6gj83net0evgljbf0hotoq58g3dn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

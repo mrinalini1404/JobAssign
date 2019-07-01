@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        tools:context=".JobCreateActivity">
+
+    <ScrollView android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true">
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_margin="20dp"
+                android:orientation="vertical">
+
+            <EditText
+                    android:inputType="textPersonName"
+                    android:id="@+id/company_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/edit_text_background"
+                    android:drawablePadding="10dp"
+                    android:ems="10"
+                    android:hint="Company Name"
+                    android:padding="10dp"
+                    android:textColor="#ffffff"
+                    android:textColorHint="#808080"
+                    android:textSize="15sp" />
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/edit_text_background"
+                    android:drawablePadding="10dp"
+                    android:ems="10"
+                    android:padding="10dp"
+                    android:textColor="#ffffff"
+                    android:textColorHint="#808080"
+                    android:textSize="15sp"
+                    android:inputType="number"
+                    android:hint="Number of workers"
+                    android:id="@+id/num_workers" />
+        <EditText
+
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/edit_text_background"
+                android:drawablePadding="10dp"
+                android:padding="10dp"
+                android:textColor="#ffffff"
+                android:textColorHint="#808080"
+                android:textSize="15sp"
+                android:inputType="number"
+                android:hint=" Defined Geo location range (eg.5 km,7 km)"
+                android:ems="10"
+                android:id="@+id/geo_loc" />
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/edit_text_background"
+                android:drawablePadding="10dp"
+                android:padding="10dp"
+                android:textColor="#ffffff"
+                android:textColorHint="#808080"
+                android:textSize="15sp"
+                android:inputType="textPersonName"
+                android:hint="Payment for the job"
+                android:ems="10"
+                android:id="@+id/payment" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/edit_text_background"
+                android:drawablePadding="10dp"
+                android:padding="10dp"
+                android:textColor="#ffffff"
+                android:textColorHint="#808080"
+                android:textSize="15sp"
+                android:inputType="textPersonName"
+                android:hint="Duration of the job"
+                android:ems="10"
+                android:id="@+id/duration" />
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/edit_text_background"
+                android:drawablePadding="10dp"
+                android:padding="10dp"
+                android:textColor="#ffffff"
+                android:textColorHint="#808080"
+                android:textSize="15sp"
+                android:inputType="textPersonName"
+                android:hint="Workplace Address"
+                android:ems="10"
+                android:id="@+id/address"/>
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/edit_text_background"
+                android:drawablePadding="10dp"
+                android:padding="10dp"
+                android:textColor="#ffffff"
+                android:textColorHint="#808080"
+                android:textSize="15sp"
+                android:inputType="textPersonName"
+                android:hint="Start Time of job"
+                android:ems="10"
+                android:id="@+id/start_time" />
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/edit_text_background"
+                android:drawablePadding="10dp"
+                android:padding="10dp"
+                android:textColor="#ffffff"
+                android:textColorHint="#808080"
+                android:textSize="15sp"
+                android:inputType="textPersonName"
+                android:hint="Expiry time for job acceptance"
+                android:ems="10"
+                android:id="@+id/end_time" />
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginBottom="40dp"
+                android:background="@drawable/edit_text_background"
+                android:drawablePadding="10dp"
+                android:padding="10dp"
+                android:textColor="#ffffff"
+                android:textColorHint="#808080"
+                android:textSize="15sp"
+                android:inputType="textPersonName"
+                android:hint="Selection of workers"
+                android:ems="10"
+                android:id="@+id/selection"/>
+            <Button
+                    android:id="@+id/job_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginBottom="30dp"
+                    android:background="@drawable/button_background"
+                    android:text="Create Job Request"
+                    android:textAllCaps="false"
+                    android:textColor="#ffffff"
+                    android:textSize="21sp"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
